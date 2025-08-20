@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Переключаем отображение ответа
             answer.style.display = isOpen ? 'none' : displayVisibleType;
-            
+
             // Переключаем иконки
             const arrowIcon = button.querySelector('.faq-item__button-plus');
             const plusIcon = button.querySelector('.faq-item__button-minus');

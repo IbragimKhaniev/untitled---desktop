@@ -52,9 +52,15 @@
   position: relative;
   flex: 0 0 auto;
   border-radius: 16px;
+  cursor: pointer;
 }
 
-.team-section__filter--active {
+.team-section__filter:hover {
+  opacity: .9;
+}
+
+.team-section__filter--active,
+.team-section__filter:active {
   background-color: #4e9c1f;
 }
 
