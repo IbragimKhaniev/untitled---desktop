@@ -20,6 +20,10 @@
   overflow: hidden;
 }
 
+.application-demo-section .container {
+  padding: 0 0;
+}
+
 .application-demo-section__container {
   position: absolute;
   width: 100%;
