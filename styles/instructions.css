@@ -15,6 +15,63 @@
   padding: 0 88px;
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+  .instructions-section .container {
+    padding: 0 40px;
+  }
+  
+  .instruction-step {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .instructions-section__title {
+    width: 100%;
+    margin: 0;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .instructions-section .container {
+    padding: 0 16px;
+  }
+  
+  .instructions-section__container {
+    padding: 32px 16px;
+  }
+  
+  .instructions-section__title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  
+  .instruction-step {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 16px;
+  }
+  
+  .instruction-step__number {
+    margin-bottom: 16px;
+  }
+  
+  .instruction-step__content {
+    align-items: center;
+  }
+  
+  .instruction-step__text--main {
+    text-align: center;
+  }
+  
+  .instructions-section__decoration {
+    display: none;
+  }
+}
+
 .instructions-section__container {
   display: flex;
   flex-direction: column;

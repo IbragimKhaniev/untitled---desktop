@@ -5,13 +5,28 @@
   align-items: flex-start;
   position: relative;
   background-color: #ffffff;
+  width: 100%;
 }
 
 /* Container */
 .container {
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 40px;
-  width: 100%;
   position: relative;
+  box-sizing: border-box;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
 }

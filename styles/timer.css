@@ -63,3 +63,25 @@
   line-height: var(--display-display-medium-line-height);
   font-style: var(--display-display-medium-font-style);
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .timer-item__value {
+    padding: 12px 24px;
+  }
+  
+  .timer-item__number {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  
+  .timer-item__label {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .timer-separator {
+    height: 60px;
+    font-size: 32px;
+  }
+}

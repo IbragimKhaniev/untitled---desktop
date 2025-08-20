@@ -130,3 +130,55 @@
   top: 110px;
   left: 938px;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .feedback-section {
+    padding: 32px 0;
+  }
+  
+  .feedback-section__container {
+    padding: 32px 24px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .feedback-section__container {
+    padding: 24px 16px;
+  }
+  
+  .feedback-section__emojis {
+    width: 240px;
+    height: 96px;
+  }
+  
+  .feedback-section__emojis-container {
+    width: 208px;
+    height: 95px;
+  }
+  
+  .feedback-section__emoji--sad,
+  .feedback-section__emoji--neutral {
+    width: 72px;
+    height: 72px;
+    font-size: 72px;
+    line-height: 108px;
+  }
+  
+  .feedback-section__emoji--happy {
+    width: 96px;
+    height: 96px;
+    font-size: 96px;
+    line-height: 144px;
+  }
+  
+  .feedback-section__button-text {
+    width: auto;
+    font-size: 14px;
+  }
+  
+  .feedback-section__decoration {
+    display: none;
+  }
+}

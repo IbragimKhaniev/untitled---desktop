@@ -45,6 +45,38 @@
   margin-right: -520px;
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+  .slider-section {
+    padding: 32px 0;
+  }
+  
+  .slider-section__image {
+    width: 100vw;
+    height: auto;
+    max-width: 1024px;
+    margin: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider-section__arrow {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .slider-section__image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .slider-section__container {
+    padding: 16px 0 0;
+  }
+}
+
 .slider-section__dots {
   display: inline-flex;
   align-items: flex-start;
