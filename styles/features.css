@@ -81,7 +81,6 @@
   border-color: #f3f5f6;
   display: flex;
   position: relative;
-  min-width: 350px;
 }
 
 .feature-card__icon {
