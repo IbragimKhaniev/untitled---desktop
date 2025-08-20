@@ -34,14 +34,15 @@
   position: absolute;
   width: 100%;
   height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .application-demo-section__image {
   position: absolute;
   width: 400px;
   height: 400px;
-  left: 50%;
-  margin-left: -200px;
 }
 
 .application-demo-section__slider {
@@ -53,10 +54,22 @@
 .application-demo-section__slide {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 420px;
 }
 
 .application-demo-section__slide img {
   height: 400px;
+}
+
+@media (max-width: 768px) {
+  .application-demo-section__image {
+    width: 234px;
+    height: 234px;
+  }
+
+  .application-demo-section__slide img {
+    height: 220px;
+  }
 }
