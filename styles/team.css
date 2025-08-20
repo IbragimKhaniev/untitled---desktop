@@ -248,16 +248,3 @@
   color: #ecf0f1;
   text-align: center;
 }
-
-.team-section__slider .swiper-pagination {
-  bottom: -50px !important;
-}
-
-.team-section__slider .swiper-pagination-bullet {
-  background: #fff;
-  opacity: 0.5;
-  width: 6px;
-  height: 6px;
-  margin: 0 8px;
-}
-

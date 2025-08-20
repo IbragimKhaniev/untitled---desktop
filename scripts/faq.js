@@ -1,3 +1,5 @@
+const displayVisibleType = 'flex';
+
 document.addEventListener('DOMContentLoaded', function() {
     const faqItems = document.querySelectorAll('.faq-item');
     
@@ -7,21 +9,21 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Изначально скрываем все ответы
         answer.style.display = 'none';
-        
+
         // Обработчик клика на весь элемент FAQ
         item.addEventListener('click', function() {
-            const isOpen = answer.style.display === 'block';
+            const isOpen = answer.style.display === displayVisibleType;
             
             // Переключаем отображение ответа
-            answer.style.display = isOpen ? 'none' : 'block';
+            answer.style.display = isOpen ? 'none' : displayVisibleType;
             
             // Переключаем иконки
-            const arrowIcon = button.querySelector('.slider-section__arrow-icon');
-            const plusIcon = button.querySelector('.faq-item__button-plus');
+            const arrowIcon = button.querySelector('.faq-item__button-plus');
+            const plusIcon = button.querySelector('.faq-item__button-minus');
             
             if (arrowIcon && plusIcon) {
-                arrowIcon.style.display = isOpen ? 'block' : 'none';
-                plusIcon.style.display = isOpen ? 'none' : 'block';
+                arrowIcon.style.display = isOpen ? displayVisibleType : 'none';
+                plusIcon.style.display = isOpen ? 'none' : displayVisibleType;
             }
         });
     });

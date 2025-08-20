@@ -164,33 +164,31 @@
   backdrop-filter: blur(9.45px) brightness(100%);
   -webkit-backdrop-filter: blur(9.45px) brightness(100%);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .faq-item__button-icon {
   position: absolute;
   width: 22px;
   height: 22px;
-  top: 5px;
-  left: 5px;
 }
 
-.faq-item__button-plus {
-  position: relative;
-  width: 32px;
-  height: 32px;
-  top: 16px;
-  left: 16px;
-  transform: rotate(-45deg);
+.faq-item__button-plus,
+.faq-item__button-minus {
+  cursor: pointer;
+  display: flex;
+}
+
+.faq-item__button-minus {
   display: none;
 }
 
-.faq-item__button-plus-icon {
-  position: absolute;
+.faq-item__button-plus-icon,
+.faq-item__button-minus-icon {
   width: 16px;
   height: 16px;
-  top: 8px;
-  left: 8px;
-  transform: rotate(45deg);
 }
 
 /* Tablet */

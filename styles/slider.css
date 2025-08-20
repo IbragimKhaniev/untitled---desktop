@@ -74,3 +74,19 @@
 .swiper-button-next:after, .swiper-button-prev:after {
   display: none;
 }
+
+.swiper-pagination {
+  bottom: -50px !important;
+}
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: unset !important;
+    bottom: -100px !important;
+  }
+
+  .swiper-pagination {
+    bottom: -76px !important;
+  }
+}
