@@ -9,6 +9,7 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  overflow: hidden;
 }
 
 .reviews-section .container {
