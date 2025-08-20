@@ -9,12 +9,90 @@
     <script src="mobile-menu.js" defer></script>
   </head>
   <body>
-    <div class="desktop">
+    <div class="app">
+      <div class="navigation-wrapper">
+        <div class="navigation-logo">
+          <img src="assets/logo.svg" />
+        </div>
+        <div class="navigation">
+          <div class="navigation-back-logo">
+            <img src="assets/logo_aura-sign.svg" />
+          </div>
+          <div class="navigation-items">
+            <div class="navigation__item navigation__item--active">
+              <div class="navigation__item-content">
+                <div class="navigation__item-text">Почему Аура?</div>
+              </div>
+            </div>
+            <div class="navigation__item navigation__item--medium">
+              <div class="navigation__item-content">
+                <div class="navigation__item-text">Команда и продукты</div>
+              </div>
+            </div>
+            <div class="navigation__item navigation__item--medium">
+              <div class="navigation__item-content">
+                <div class="navigation__item-text">Инструкция</div>
+              </div>
+            </div>
+            <div class="navigation__item navigation__item--medium">
+              <div class="navigation__item-content">
+                <div class="navigation__item-text">Отзывы</div>
+              </div>
+            </div>
+            <div class="navigation__item navigation__item--large">
+              <div class="navigation__item-content">
+                <div class="navigation__item-text">FAQ</div>
+              </div>
+            </div>
+            <div class="navigation__item navigation__item--large">
+              <div class="navigation__item-content">
+                <div class="navigation__item-text">Контакты и Помощь</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <button class="mobile-menu__toggle" id="mobileMenuToggle">
+          <span class="mobile-menu__toggle-icon"></span>
+        </button>
+        <div class="mobile-menu__overlay" id="mobileMenuOverlay">
+          <button class="mobile-menu__close" id="mobileMenuClose">×</button>
+          <div class="mobile-menu__content">
+            <nav class="mobile-menu__nav">
+              <button class="mobile-menu__nav-item">Почему Аура?</button>
+              <button class="mobile-menu__nav-item">Команда и продукты</button>
+              <button class="mobile-menu__nav-item">Инструкция</button>
+              <button class="mobile-menu__nav-item">Отзывы</button>
+              <button class="mobile-menu__nav-item">FAQ</button>
+              <button class="mobile-menu__nav-item">Контакты и Помощь</button>
+            </nav>
+            <div class="mobile-menu__section">
+              <h3 class="mobile-menu__section-title">
+                <svg class="mobile-menu__section-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                </svg> Телеграм-канал
+              </h3>
+              <p class="mobile-menu__section-description"> Подписывайтесь, чтобы быть в курсе всех апдейтов и новостей по продукту. </p>
+            </div>
+            <div class="mobile-menu__section">
+              <h3 class="mobile-menu__section-title">
+                <svg class="mobile-menu__section-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg> Портал IdeaX5
+              </h3>
+            </div>
+            <div class="mobile-menu__section">
+              <h3 class="mobile-menu__section-title">Техническая поддержка</h3>
+              <p class="mobile-menu__section-description"> Если что-то поломалось или пошло не так, сообщите нам о проблеме </p>
+              <button class="mobile-menu__section-button">Отправить заявку</button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="hero-section">
         <div class="container">
-          <div class="hero-section__logo">
-            <img class="hero-section__logo-vector" src="https://c.animaapp.com/mejut3ctvBG29k/img/vector.svg">
-          </div>
           <div class="hero-section__content">
             <p class="hero-section__title">Платформа для эффективного <br>взаимодействия магазинов с офисами </p>
           </div>
@@ -50,77 +128,6 @@
           <img class="hero-section__decoration-1" src="https://c.animaapp.com/mejut3ctvBG29k/img/------9.png">
           <img class="hero-section__decoration-2" src="https://c.animaapp.com/mejut3ctvBG29k/img/------8.png">
           <img class="hero-section__decoration-3" src="https://c.animaapp.com/mejut3ctvBG29k/img/------7.png">
-          <div class="navigation">
-            <div class="navigation__item navigation__item--active">
-              <div class="navigation__item-content">
-                <div class="navigation__item-text">Почему Аура?</div>
-              </div>
-            </div>
-            <div class="navigation__item navigation__item--medium">
-              <div class="navigation__item-content">
-                <div class="navigation__item-text">Команда и продукты</div>
-              </div>
-            </div>
-            <div class="navigation__item navigation__item--medium">
-              <div class="navigation__item-content">
-                <div class="navigation__item-text">Инструкция</div>
-              </div>
-            </div>
-            <div class="navigation__item navigation__item--medium">
-              <div class="navigation__item-content">
-                <div class="navigation__item-text">Отзывы</div>
-              </div>
-            </div>
-            <div class="navigation__item navigation__item--large">
-              <div class="navigation__item-content">
-                <div class="navigation__item-text">FAQ</div>
-              </div>
-            </div>
-            <div class="navigation__item navigation__item--large">
-              <div class="navigation__item-content">
-                <div class="navigation__item-text">Контакты и Помощь</div>
-              </div>
-            </div>
-          </div>
-          <!-- Mobile Menu -->
-          <div class="mobile-menu">
-            <button class="mobile-menu__toggle" id="mobileMenuToggle">
-              <span class="mobile-menu__toggle-icon"></span>
-            </button>
-            <div class="mobile-menu__overlay" id="mobileMenuOverlay">
-              <button class="mobile-menu__close" id="mobileMenuClose">×</button>
-              <div class="mobile-menu__content">
-                <nav class="mobile-menu__nav">
-                  <button class="mobile-menu__nav-item">Почему Аура?</button>
-                  <button class="mobile-menu__nav-item">Команда и продукты</button>
-                  <button class="mobile-menu__nav-item">Инструкция</button>
-                  <button class="mobile-menu__nav-item">Отзывы</button>
-                  <button class="mobile-menu__nav-item">FAQ</button>
-                  <button class="mobile-menu__nav-item">Контакты и Помощь</button>
-                </nav>
-                <div class="mobile-menu__section">
-                  <h3 class="mobile-menu__section-title">
-                    <svg class="mobile-menu__section-icon" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
-                    </svg> Телеграм-канал
-                  </h3>
-                  <p class="mobile-menu__section-description"> Подписывайтесь, чтобы быть в курсе всех апдейтов и новостей по продукту. </p>
-                </div>
-                <div class="mobile-menu__section">
-                  <h3 class="mobile-menu__section-title">
-                    <svg class="mobile-menu__section-icon" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg> Портал IdeaX5
-                  </h3>
-                </div>
-                <div class="mobile-menu__section">
-                  <h3 class="mobile-menu__section-title">Техническая поддержка</h3>
-                  <p class="mobile-menu__section-description"> Если что-то поломалось или пошло не так, сообщите нам о проблеме </p>
-                  <button class="mobile-menu__section-button">Отправить заявку</button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div class="features-section">
