@@ -1,0 +1,193 @@
+/* FAQ Section */
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 0;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.faq-section .container {
+  padding: 0 88px;
+}
+
+.faq-section__container {
+  align-items: center;
+  gap: 24px;
+  padding: 48px 0px;
+  border-radius: 64px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.faq-section__title {
+  width: 1280px;
+  margin-top: -1px;
+  margin-left: -8px;
+  margin-right: -8px;
+  color: #25303c;
+  font-size: var(--display-display-medium-font-size);
+  text-align: center;
+  line-height: var(--display-display-medium-line-height);
+  position: relative;
+  font-family: var(--display-display-medium-font-family);
+  font-weight: var(--display-display-medium-font-weight);
+  letter-spacing: var(--display-display-medium-letter-spacing);
+  font-style: var(--display-display-medium-font-style);
+}
+
+.faq-section__items {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px 8px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.faq-item {
+  display: flex;
+  width: 900px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px 24px 24px 48px;
+  position: relative;
+  background-color: #f3f5f6;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.faq-item__blur {
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  top: -114px;
+  left: 786px;
+  border-radius: 114px;
+  filter: blur(96px);
+}
+
+.faq-item__blur--orange {
+  background-color: #ffd9b2;
+}
+
+.faq-item__blur--green {
+  background-color: #a8db97;
+}
+
+.faq-item__blur--blue {
+  background-color: #b5e8ec;
+}
+
+.faq-item__blur--red {
+  background-color: #ffd2d2;
+}
+
+.faq-item__content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 0px 20px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.faq-item__question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 20px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.faq-item__question-text {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--title-title-large-font-family);
+  font-weight: var(--title-title-large-font-weight);
+  color: #25303c;
+  font-size: var(--title-title-large-font-size);
+  letter-spacing: var(--title-title-large-letter-spacing);
+  line-height: var(--title-title-large-line-height);
+  font-style: var(--title-title-large-font-style);
+}
+
+.faq-item__answer {
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 120px 0px 0px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.faq-item__answer-text {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-body-extra-large-font-family);
+  font-weight: var(--body-body-extra-large-font-weight);
+  color: #637889;
+  font-size: var(--body-body-extra-large-font-size);
+  letter-spacing: var(--body-body-extra-large-letter-spacing);
+  line-height: var(--body-body-extra-large-line-height);
+  font-style: var(--body-body-extra-large-font-style);
+}
+
+.faq-item__button {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 78.75px;
+  backdrop-filter: blur(9.45px) brightness(100%);
+  -webkit-backdrop-filter: blur(9.45px) brightness(100%);
+}
+
+.faq-item__button-icon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 5px;
+  left: 5px;
+}
+
+.faq-item__button-plus {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: 16px;
+  left: 16px;
+  transform: rotate(-45deg);
+}
+
+.faq-item__button-plus-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  left: 8px;
+  transform: rotate(45deg);
+}

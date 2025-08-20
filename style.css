@@ -1,0 +1,15 @@
+/* Main stylesheet - imports all component styles */
+@import url('./styles/base.css');
+@import url('./styles/hero.css');
+@import url('./styles/timer.css');
+@import url('./styles/navigation.css');
+@import url('./styles/features.css');
+@import url('./styles/slider.css');
+@import url('./styles/content.css');
+@import url('./styles/team.css');
+@import url('./styles/instructions.css');
+@import url('./styles/reviews.css');
+@import url('./styles/feedback.css');
+@import url('./styles/faq.css');
+@import url('./styles/contact.css');
+@import url('./styles/widgets.css');

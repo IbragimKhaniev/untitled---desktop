@@ -1,0 +1,98 @@
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 160px 0 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.hero-section .container {
+  padding: 0 80px;
+}
+
+.hero-section__logo {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: -260px;
+  left: 522px;
+  overflow: hidden;
+  background-image: url(https://c.animaapp.com/mejut3ctvBG29k/img/bg.svg);
+  background-size: 100% 100%;
+}
+
+.hero-section__logo-vector {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: -1px;
+}
+
+.hero-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.hero-section__title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--display-display-medium-font-family);
+  font-weight: var(--display-display-medium-font-weight);
+  color: #25303c;
+  font-size: var(--display-display-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--display-display-medium-letter-spacing);
+  line-height: var(--display-display-medium-line-height);
+  font-style: var(--display-display-medium-font-style);
+}
+
+.hero-section__timer {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hero-section__decoration-1 {
+  position: absolute;
+  width: 98px;
+  height: 92px;
+  top: -2746px;
+  left: 6171px;
+  object-fit: cover;
+}
+
+.hero-section__decoration-2 {
+  position: absolute;
+  width: 96px;
+  height: 94px;
+  top: 113px;
+  left: 1264px;
+  object-fit: cover;
+}
+
+.hero-section__decoration-3 {
+  position: absolute;
+  width: 98px;
+  height: 87px;
+  top: 444px;
+  left: 120px;
+  object-fit: cover;
+}

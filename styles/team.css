@@ -1,0 +1,223 @@
+/* Team Section */
+.team-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 0;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.team-section .container {
+  padding: 0 88px;
+}
+
+.team-section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 48px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 64px;
+}
+
+.team-section__filters {
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+.team-section__filter {
+  padding: 6px 24px;
+  display: inline-flex;
+  height: 44px;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 16px;
+}
+
+.team-section__filter--active {
+  background-color: #4e9c1f;
+}
+
+.team-section__filter--inactive {
+  background-color: #f3f5f6;
+}
+
+.team-section__filter-text {
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "X5 Sans UI-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.team-section__filter-text--active {
+  color: #ffffff;
+}
+
+.team-section__filter-text--inactive {
+  color: #637889;
+}
+
+.team-section__slider {
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 24px 0px 0px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.team-card {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: #dbf6f7;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.team-card__content {
+  position: relative;
+  width: 536px;
+  height: 536px;
+  top: 64px;
+  left: 64px;
+}
+
+.team-card__image {
+  position: absolute;
+  width: 370px;
+  height: 368px;
+  top: 168px;
+  left: 166px;
+}
+
+.team-card__info {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  height: 319px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.team-card__logo {
+  position: relative;
+  width: 48px;
+  height: 38.58px;
+  margin-top: -16.79px;
+}
+
+.team-card__description {
+  position: relative;
+  align-self: stretch;
+  font-family: "X5 Sans UI-Regular", Helvetica;
+  font-weight: 400;
+  color: #25303c;
+  font-size: 28px;
+  letter-spacing: -1px;
+  line-height: 36px;
+}
+
+.team-card__person {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -16.79px;
+}
+
+.team-card__name {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "X5 Sans UI-Medium", Helvetica;
+  font-weight: 500;
+  color: #25303c;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.team-card__role {
+  position: relative;
+  width: fit-content;
+  font-family: "X5 Sans UI-Regular", Helvetica;
+  font-weight: 400;
+  color: #637889;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.team-card__avatar {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: -32px;
+  left: -27px;
+}
+
+.team-section__arrow {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 78.75px;
+  box-shadow: 0px 4px 12px #0000000d;
+}
+
+.team-section__arrow--right {
+  top: 292px;
+  left: 1136px;
+}
+
+.team-section__arrow--left {
+  top: 292px;
+  left: -32px;
+}
+
+.team-section__dots {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.team-section__dots-content {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}

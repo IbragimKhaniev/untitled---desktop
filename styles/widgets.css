@@ -1,0 +1,141 @@
+/* QR Widget */
+.qr-widget {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 20px;
+  left: 1263px;
+  box-shadow: 0px 10px 40px #0000001a;
+}
+
+.qr-widget__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 16px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.qr-widget__header {
+  display: flex;
+  flex-direction: column;
+  height: 28px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.qr-widget__title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--label-label-medium-font-family);
+  font-weight: var(--label-label-medium-font-weight);
+  color: #25303c;
+  font-size: var(--label-label-medium-font-size);
+  letter-spacing: var(--label-label-medium-letter-spacing);
+  line-height: var(--label-label-medium-line-height);
+  font-style: var(--label-label-medium-font-style);
+}
+
+.qr-widget__subtitle {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--textline-textline-small-font-family);
+  font-weight: var(--textline-textline-small-font-weight);
+  color: #637889;
+  font-size: var(--textline-textline-small-font-size);
+  letter-spacing: var(--textline-textline-small-letter-spacing);
+  line-height: var(--textline-textline-small-line-height);
+  font-style: var(--textline-textline-small-font-style);
+}
+
+.qr-widget__image {
+  position: relative;
+  width: 117px;
+  height: 117px;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  width: 153px;
+  height: 48px;
+  top: 32px;
+  left: 32px;
+}
+
+.logo__text {
+  position: absolute;
+  width: 89px;
+  height: 27px;
+  top: 20px;
+  left: 45px;
+}
+
+.logo__sign {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  top: 9px;
+  left: 0;
+}
+
+.logo__brands {
+  position: absolute;
+  width: 74px;
+  height: 14px;
+  top: 0;
+  left: 78px;
+}
+
+.logo__brand-x5 {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  top: 0;
+  left: 0;
+}
+
+.logo__brand-separator {
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  top: 4px;
+  left: 25px;
+  background-color: #25303c;
+}
+
+.logo__brand-perek {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 3px;
+  left: 48px;
+}
+
+.logo__brand-5ka {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 3px;
+  left: 31px;
+}
+
+.logo__brand-chiz {
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  top: 3px;
+  left: 64px;
+}
