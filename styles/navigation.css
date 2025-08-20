@@ -94,7 +94,7 @@
 .mobile-menu__toggle {
   display: none;
   position: fixed;
-  top: 20px;
+  top: 40px;
   right: 20px;
   z-index: 1001;
   width: 44px;
@@ -319,5 +319,14 @@
   
   .mobile-menu__toggle {
     display: flex;
+  }
+
+  .navigation-wrapper {
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+
+  .navigation-logo {
+    
   }
 }
