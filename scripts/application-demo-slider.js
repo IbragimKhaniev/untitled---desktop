@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
       crossFade: true // Включает перекрестное затухание
     },
     speed: 1000, // Скорость перехода (мс)
-    // autoplay: {
-    //   delay: 2000, // Автопрокрутка каждые 5 секунд
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2000, // Автопрокрутка каждые 5 секунд
+      disableOnInteraction: false,
+    },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
