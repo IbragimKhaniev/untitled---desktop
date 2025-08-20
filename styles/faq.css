@@ -226,8 +226,7 @@
   }
   
   .faq-item {
-    flex-direction: column;
-    padding: 24px 16px;
+    padding: 24px;
     gap: 16px;
   }
   
@@ -241,10 +240,6 @@
   
   .faq-item__answer {
     padding: 0;
-  }
-  
-  .faq-item__button {
-    align-self: center;
   }
   
   .faq-item__blur {
