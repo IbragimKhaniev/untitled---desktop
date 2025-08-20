@@ -1,5 +1,10 @@
-.application-demo-section {
+.application-demo-title-section {
   margin: 40px 0;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.application-demo-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,4 +13,20 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  background-image: url('../assets/bg-green-sin.png');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.application-demo-section__container {
+  
+}
+
+.application-demo-section__image {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 50%;
+  margin-left: -200px;
 }
