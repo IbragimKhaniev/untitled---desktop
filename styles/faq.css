@@ -67,6 +67,12 @@
   border-radius: 32px;
   overflow: hidden;
   cursor: pointer;
+  transition: all .3s ease;
+}
+
+.faq-item:hover {
+  transition: all .3s ease;
+  transform: scale(1.01);
 }
 
 .faq-item__blur {

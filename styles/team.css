@@ -52,10 +52,12 @@
   flex: 0 0 auto;
   border-radius: 16px;
   cursor: pointer;
+  transition: all .3s ease;
 }
 
 .team-section__filter:hover {
-  opacity: .9;
+  transition: all .3s ease;
+  transform: scale(1.05);
 }
 
 .team-section__filter--active,
