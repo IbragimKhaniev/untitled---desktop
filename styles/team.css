@@ -139,7 +139,7 @@
 .team-section__filter-text {
   width: fit-content;
   margin-top: -1px;
-  font-family: "X5 Sans UI-Medium", Helvetica;
+   
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -238,7 +238,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: "X5 Sans UI-Medium", Helvetica;
+   
   font-weight: 500;
   color: #25303c;
   font-size: 20px;

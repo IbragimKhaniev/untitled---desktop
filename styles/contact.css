@@ -100,7 +100,7 @@
 .contact-section__title {
   align-self: stretch;
   margin-top: -2px;
-  font-family: var(--display-display-medium-font-family);
+   
   font-weight: var(--display-display-medium-font-weight);
   font-size: var(--display-display-medium-font-size);
   text-align: center;
@@ -152,7 +152,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: var(--title-title-large-font-family);
+   
   font-weight: var(--title-title-large-font-weight);
   color: #25303c;
   font-size: var(--title-title-large-font-size);
@@ -168,7 +168,7 @@
   font-size: var(--body-body-large-font-size);
   line-height: var(--body-body-large-line-height);
   position: relative;
-  font-family: var(--body-body-large-font-family);
+  
   font-weight: var(--body-body-large-font-weight);
   letter-spacing: var(--body-body-large-letter-spacing);
   font-style: var(--body-body-large-font-style);
@@ -190,7 +190,7 @@
 .contact-card__button-text {
   position: relative;
   flex: 1;
-  font-family: var(--body-body-large-compact-font-family);
+   
   font-weight: var(--body-body-large-compact-font-weight);
   color: #ffffff;
   font-size: var(--body-body-large-compact-font-size);
@@ -283,7 +283,7 @@
   line-height: var(--body-body-large-compact-line-height);
   white-space: nowrap;
   position: relative;
-  font-family: var(--body-body-large-compact-font-family);
+   
   font-weight: var(--body-body-large-compact-font-weight);
   letter-spacing: var(--body-body-large-compact-letter-spacing);
   font-style: var(--body-body-large-compact-font-style);

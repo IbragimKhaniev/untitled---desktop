@@ -51,7 +51,6 @@
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: var(--label-label-medium-font-family);
   font-weight: var(--label-label-medium-font-weight);
   color: #25303c;
   font-size: var(--label-label-medium-font-size);
@@ -63,7 +62,6 @@
 .qr-widget__subtitle {
   position: relative;
   align-self: stretch;
-  font-family: var(--textline-textline-small-font-family);
   font-weight: var(--textline-textline-small-font-weight);
   color: #637889;
   font-size: var(--textline-textline-small-font-size);

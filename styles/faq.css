@@ -99,7 +99,7 @@
   text-align: center;
   line-height: var(--display-display-medium-line-height);
   position: relative;
-  font-family: var(--display-display-medium-font-family);
+   
   font-weight: var(--display-display-medium-font-weight);
   letter-spacing: var(--display-display-medium-letter-spacing);
   font-style: var(--display-display-medium-font-style);
@@ -183,7 +183,7 @@
   position: relative;
   flex: 1;
   margin-top: -1px;
-  font-family: var(--title-title-large-font-family);
+   
   font-weight: var(--title-title-large-font-weight);
   color: #25303c;
   font-size: var(--title-title-large-font-size);

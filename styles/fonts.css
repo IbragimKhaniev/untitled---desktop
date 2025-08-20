@@ -1,0 +1,65 @@
+/* Подключение шрифтов */
+@font-face {
+  font-family: 'X5 Sans';
+  src: url('../fonts/X5-Sans_Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'X5 Sans';
+  src: url('../fonts/X5-Sans_Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'X5 Sans';
+  src: url('../fonts/X5-Sans_Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'X5 Sans';
+  src: url('../fonts/X5-Sans_Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Применение шрифта ко всем элементам */
+* {
+  /* font-family: 'X5 Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; */
+  font-family: "X5 Sans UI", Helvetica;;
+  font-weight: 400; /* Обычное начертание по умолчанию */
+}
+
+/* Альтернативный вариант - применение через body */
+body {
+  /* font-family: 'X5 Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; */
+  font-family: "X5 Sans UI", Helvetica;;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Дополнительные стили для разных весов шрифта */
+strong, b {
+  font-weight: 700;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
+.medium-text {
+  font-weight: 500;
+}
+
+.bold-text {
+  font-weight: 700;
+}

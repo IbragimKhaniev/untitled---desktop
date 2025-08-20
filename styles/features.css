@@ -177,7 +177,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: var(--display-display-medium-font-family);
+   
   font-weight: var(--display-display-medium-font-weight);
   color: #25303c;
   font-size: var(--display-display-medium-font-size);
@@ -195,7 +195,7 @@
 .feature-card__subtitle {
   position: relative;
   align-self: stretch;
-  font-family: var(--title-title-large-font-family);
+   
   font-weight: var(--title-title-large-font-weight);
   color: #25303c;
   font-size: var(--title-title-large-font-size);
@@ -210,7 +210,7 @@
   font-size: var(--body-body-large-font-size);
   line-height: var(--body-body-large-line-height);
   position: relative;
-  font-family: var(--body-body-large-font-family);
+  
   font-weight: var(--body-body-large-font-weight);
   letter-spacing: var(--body-body-large-letter-spacing);
   font-style: var(--body-body-large-font-style);

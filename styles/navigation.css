@@ -76,7 +76,7 @@
 .navigation__item-text {
   width: fit-content;
   margin-top: -1px;
-  font-family: "X5 Sans UI-Medium", Helvetica;
+   
   font-weight: 500;
   color: #ffffff;
   font-size: 14px;
@@ -196,7 +196,7 @@
   padding: 16px 20px;
   color: #ffffff;
   text-decoration: none;
-  font-family: "X5 Sans UI-Medium", Helvetica;
+   
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -228,7 +228,7 @@
 
 .mobile-menu__section-title {
   color: #ffffff;
-  font-family: "X5 Sans UI-Medium", Helvetica;
+   
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -259,7 +259,7 @@
   border: none;
   border-radius: 16px;
   padding: 16px 24px;
-  font-family: "X5 Sans UI-Medium", Helvetica;
+   
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;

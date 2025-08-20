@@ -92,7 +92,7 @@
   margin-top: -1px;
   margin-left: -56px;
   margin-right: -56px;
-  font-family: var(--display-display-medium-font-family);
+   
   font-weight: var(--display-display-medium-font-weight);
   color: #25303c;
   font-size: var(--display-display-medium-font-size);
@@ -175,7 +175,7 @@
   position: relative;
   flex: 1;
   margin-top: -1px;
-  font-family: "X5 Sans UI-Medium", Helvetica;
+   
   font-weight: 400;
   color: transparent;
   font-size: 20px;
@@ -187,7 +187,7 @@
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: var(--title-title-large-font-family);
+   
   font-weight: var(--title-title-large-font-weight);
   color: #25303c;
   font-size: var(--title-title-large-font-size);
@@ -200,7 +200,7 @@
   position: relative;
   flex: 1;
   margin-top: -1px;
-  font-family: var(--title-title-large-font-family);
+   
   font-weight: var(--title-title-large-font-weight);
   color: #25303c;
   font-size: var(--title-title-large-font-size);
@@ -220,7 +220,7 @@
   color: #4e9c1f;
   line-height: var(--title-title-large-line-height);
   text-decoration: underline;
-  font-family: var(--title-title-large-font-family);
+   
   font-style: var(--title-title-large-font-style);
   letter-spacing: var(--title-title-large-letter-spacing);
   font-size: var(--title-title-large-font-size);

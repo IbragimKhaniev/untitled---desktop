@@ -22,7 +22,7 @@
 .timer-item__number {
   width: fit-content;
   margin-top: -0.6px;
-  font-family: var(--display-display-medium-font-family);
+   
   font-weight: var(--display-display-medium-font-weight);
   color: #4e9c1f;
   font-size: var(--display-display-medium-font-size);
@@ -54,7 +54,7 @@
   height: 84px;
   margin-top: -1px;
   opacity: 0.4;
-  font-family: var(--display-display-medium-font-family);
+   
   font-weight: var(--display-display-medium-font-weight);
   color: #637889;
   font-size: var(--display-display-medium-font-size);

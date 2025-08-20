@@ -103,7 +103,7 @@
 
 .feedback-section__button-text {
   width: 264px;
-  font-family: var(--body-body-large-compact-font-family);
+   
   font-weight: var(--body-body-large-compact-font-weight);
   color: #ffffff;
   font-size: var(--body-body-large-compact-font-size);
