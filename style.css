@@ -1,6 +1,7 @@
 /* Main stylesheet - imports all component styles */
 @import url('./styles/base.css');
 @import url('./styles/fonts.css');
+@import url('./styles/common.css');
 @import url('./styles/hero.css');
 @import url('./styles/timer.css');
 @import url('./styles/navigation.css');
