@@ -13,6 +13,7 @@
 
 .instructions-section .container {
   padding: 0 88px;
+  overflow: hidden;
 }
 
 /* Tablet */
