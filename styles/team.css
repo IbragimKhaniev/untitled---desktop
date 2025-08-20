@@ -261,21 +261,3 @@
   margin: 0 8px;
 }
 
-.team-section__slider .swiper-button-next, .swiper-button-prev {
-  color: #ffeb3b;
-  background: rgba(0, 0, 0, 0.3);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.team-section__slider .swiper-button-next:after, .swiper-button-prev:after {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.team-section__slider .swiper-button-next:hover, .swiper-button-prev:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-
