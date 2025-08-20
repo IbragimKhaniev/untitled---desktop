@@ -216,11 +216,6 @@
   left: -32px;
 }
 
-.team-section__slider .swiper {
-  width: 100%;
-  overflow: visible;
-}
-
 .team-section__slider .swiper-slide {
   border-radius: 15px;
   display: flex;

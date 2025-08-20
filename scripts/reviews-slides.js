@@ -3,22 +3,19 @@ document.addEventListener('DOMContentLoaded', function() {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
-    
+
     breakpoints: {
       // Мобильные устройства (до 768px)
       320: {
         slidesPerView: 1,
-        spaceBetween: 0
       },
       // Планшеты (768px и выше)
       768: {
         slidesPerView: 3,
-        spaceBetween: 0
       },
       // Десктоп (1024px и выше)
       1024: {
         slidesPerView: 3,
-        spaceBetween: 0
       }
     },
     

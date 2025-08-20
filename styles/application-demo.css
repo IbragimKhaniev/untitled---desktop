@@ -25,11 +25,6 @@
   padding: 0 0;
 }
 
-.application-demo-section .swiper {
-  width: 100%;
-  overflow: visible;
-}
-
 .application-demo-section__container {
   position: absolute;
   width: 100%;
