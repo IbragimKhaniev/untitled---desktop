@@ -1,5 +1,5 @@
 /* Slider Section */
-.slider-section {
+.common-section {
   padding: 40px 0;
   background-color: #ffffff;
   display: flex;
@@ -12,7 +12,7 @@
   flex: 0 0 auto;
 }
 
-.slider-section__content {
+.common-section__content {
   flex-direction: column;
   align-items: center;
   gap: 12px;
@@ -24,7 +24,7 @@
   flex: 0 0 auto;
 }
 
-.slider-section__container {
+.common-section__container {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +43,7 @@
   background-color: #4e9c1f !important;
 }
 
-.slider-section__arrow-icon {
+.common-section__arrow-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,11 +55,11 @@
   cursor: pointer;
 }
 
-.slider-section__arrow-icon:hover {
+.common-section__arrow-icon:hover {
   opacity: .9;
 }
 
-.slider-section__arrow-image {
+.common-section__arrow-image {
   width: 22px;
   height: 18px;
 }
