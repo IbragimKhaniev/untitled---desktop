@@ -99,10 +99,6 @@
   flex: 0 0 auto;
 }
 
-.review-card__header--offset {
-  margin-top: -187.95px;
-}
-
 .review-card__avatar {
   position: relative;
   width: 64px;
