@@ -16,63 +16,6 @@
   overflow: hidden;
 }
 
-/* Tablet */
-@media (max-width: 1024px) {
-  .instructions-section .container {
-    padding: 0 40px;
-  }
-  
-  .instruction-step {
-    width: 100%;
-    max-width: 700px;
-  }
-  
-  .instructions-section__title {
-    width: 100%;
-    margin: 0;
-    font-size: 36px;
-    line-height: 42px;
-  }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .instructions-section .container {
-    padding: 0 16px;
-  }
-  
-  .instructions-section__container {
-    padding: 32px 16px;
-  }
-  
-  .instructions-section__title {
-    font-size: 28px;
-    line-height: 34px;
-  }
-  
-  .instruction-step {
-    flex-direction: column;
-    text-align: center;
-    padding: 24px 16px;
-  }
-  
-  .instruction-step__number {
-    margin-bottom: 16px;
-  }
-  
-  .instruction-step__content {
-    align-items: center;
-  }
-  
-  .instruction-step__text--main {
-    text-align: center;
-  }
-  
-  .instructions-section__decoration {
-    display: none;
-  }
-}
-
 .instructions-section__container {
   display: flex;
   flex-direction: column;
@@ -145,7 +88,6 @@
   height: 63px;
   top: -1px;
   left: 0;
-  font-family: var(--title-title-extra-large-font-family);
   font-weight: var(--title-title-extra-large-font-weight);
   color: #25303c;
   font-size: var(--title-title-extra-large-font-size);
@@ -232,7 +174,6 @@
   font-size: var(--body-body-extra-large-font-size);
   line-height: var(--body-body-extra-large-line-height);
   position: relative;
-  font-family: var(--body-body-extra-large-font-family);
   font-weight: var(--body-body-extra-large-font-weight);
   letter-spacing: var(--body-body-extra-large-letter-spacing);
   font-style: var(--body-body-extra-large-font-style);
@@ -245,4 +186,61 @@
   top: 59px;
   right: -150px;
   object-fit: cover;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .instructions-section .container {
+    padding: 0 40px;
+  }
+  
+  .instruction-step {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .instructions-section__title {
+    width: 100%;
+    margin: 0;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .instructions-section .container {
+    padding: 0 16px;
+  }
+  
+  .instructions-section__container {
+    padding: 32px 16px;
+  }
+  
+  .instructions-section__title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  
+  .instruction-step {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 16px;
+  }
+  
+  .instruction-step__number {
+    margin-bottom: 16px;
+  }
+  
+  .instruction-step__content {
+    align-items: center;
+  }
+  
+  .instruction-step__text--main {
+    text-align: center;
+  }
+  
+  .instructions-section__decoration {
+    display: none;
+  }
 }

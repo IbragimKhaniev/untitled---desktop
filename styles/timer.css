@@ -42,7 +42,6 @@
   line-height: var(--body-body-extra-large-line-height);
   white-space: nowrap;
   position: relative;
-  font-family: var(--body-body-extra-large-font-family);
   font-weight: var(--body-body-extra-large-font-weight);
   letter-spacing: var(--body-body-extra-large-letter-spacing);
   font-style: var(--body-body-extra-large-font-style);

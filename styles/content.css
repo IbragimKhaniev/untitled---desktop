@@ -18,7 +18,6 @@
   text-align: center;
   line-height: var(--body-body-extra-large-line-height);
   position: relative;
-  font-family: var(--body-body-extra-large-font-family);
   font-weight: var(--body-body-extra-large-font-weight);
   letter-spacing: var(--body-body-extra-large-letter-spacing);
   font-style: var(--body-body-extra-large-font-style);
@@ -30,6 +29,13 @@
   height: 160px;
   top: 306px;
   left: -16px;
+}
+
+.content-section__decoration-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
 }
 
 /* Tablet */
@@ -54,11 +60,4 @@
   .content-section__decoration-1 {
     display: none;
   }
-}
-
-.content-section__decoration-2 {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
 }
