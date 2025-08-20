@@ -100,7 +100,7 @@
 
 .reviews-section__title {
   position: relative;
-  width: 1280px;
+  width: 100%;
   margin-top: -1px;
   margin-left: -56px;
   margin-right: -56px;
@@ -127,7 +127,9 @@
 
 .review-card {
   flex-direction: column;
-  width: 400px;
+  max-width: 400px;
+  min-width: 300px;
+  width: 100%;
   height: 340px;
   align-items: flex-start;
   justify-content: space-between;

@@ -161,8 +161,8 @@
   position: absolute;
   width: 98px;
   height: 92px;
-  top: -2746px;
-  left: 6171px;
+  top: 0px;
+  right: 0px;
   object-fit: cover;
 }
 
@@ -171,7 +171,7 @@
   width: 96px;
   height: 94px;
   top: 113px;
-  left: 1264px;
+  right: 0px;
   object-fit: cover;
 }
 
