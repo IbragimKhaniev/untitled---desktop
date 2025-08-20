@@ -37,12 +37,8 @@
 
 .slider-section__image {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 739.78px;
-  margin-top: -149.89px;
-  margin-bottom: -163.89px;
-  margin-left: -520px;
-  margin-right: -520px;
 }
 
 /* Tablet */
@@ -56,8 +52,6 @@
     height: auto;
     max-width: 1024px;
     margin: 0;
-    margin-left: 50%;
-    transform: translateX(-50%);
   }
   
   .slider-section__arrow {
@@ -118,12 +112,12 @@
 
 .slider-section__arrow--right {
   top: 208px;
-  left: 752px;
+  left: 100px;
 }
 
 .slider-section__arrow--left {
   top: 208px;
-  left: -416px;
+  left: 0px;
 }
 
 .slider-section__arrow-icon {

@@ -87,7 +87,7 @@
 
 .instructions-section__title {
   position: relative;
-  width: 1280px;
+  width: 100%;
   margin-top: -1px;
   margin-left: -56px;
   margin-right: -56px;
@@ -242,6 +242,6 @@
   width: 243px;
   height: 246px;
   top: 59px;
-  left: 1094px;
+  right: 0px;
   object-fit: cover;
 }
