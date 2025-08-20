@@ -50,29 +50,12 @@
   padding: 24px;
 }
 
-.hero-section__decoration-1 {
-  position: absolute;
-  width: 98px;
-  height: 92px;
-  top: 0px;
-  right: 0px;
-  object-fit: cover;
-}
-
-.hero-section__decoration-2 {
-  position: absolute;
-  width: 96px;
-  height: 94px;
-  top: 113px;
-  right: 0px;
-  object-fit: cover;
-}
 
 .hero-section__decoration-3 {
   position: absolute;
   width: 98px;
   height: 87px;
-  top: 444px;
+  top: 200px;
   left: 120px;
   object-fit: cover;
 }
