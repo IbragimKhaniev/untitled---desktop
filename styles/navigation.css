@@ -50,8 +50,10 @@
   position: relative;
   flex: 0 0 auto;
   border-radius: 16px;
+  cursor: pointer;
 }
 
+.navigation__item:hover,
 .navigation__item--active {
   background-color: #4e9c1f;
 }
@@ -293,7 +295,10 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-@media (max-width: 1024px) {
+/*
+* Медиа-скрин для шапки
+*/
+@media (max-width: 1200px) {
   .navigation-wrapper {
     justify-content: space-around;
   }

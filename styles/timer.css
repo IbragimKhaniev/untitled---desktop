@@ -67,7 +67,7 @@
 /* Mobile */
 @media (max-width: 768px) {
   .timer-item__value {
-    padding: 12px 24px;
+    padding: 12px 10px;
   }
   
   .timer-item__number {
