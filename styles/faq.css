@@ -163,6 +163,7 @@
   border-radius: 78.75px;
   backdrop-filter: blur(9.45px) brightness(100%);
   -webkit-backdrop-filter: blur(9.45px) brightness(100%);
+  cursor: pointer;
 }
 
 .faq-item__button-icon {
@@ -180,6 +181,7 @@
   top: 16px;
   left: 16px;
   transform: rotate(-45deg);
+  display: none;
 }
 
 .faq-item__button-plus-icon {
