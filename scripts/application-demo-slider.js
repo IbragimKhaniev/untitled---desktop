@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const swiper = new Swiper('.team-section__slider .swiper', {
+  const swiper = new Swiper('.application-demo-section__slider .swiper', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
