@@ -63,6 +63,12 @@
   flex: 0 0 auto;
   border-radius: 16px;
   cursor: pointer;
+  transition: all .3s ease;
+}
+
+.navigation__item:hover {
+  transition: all .3s ease;
+  transform: scale(1.01);
 }
 
 .navigation__item:hover,
