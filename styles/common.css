@@ -1,5 +1,15 @@
 .animate-space {
-  animation: spaceAnimate 3s ease-in-out infinite;
+  animation: spaceAnimate 8s ease-in-out infinite;
+}
+
+.animate-hover-pulse {
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.animate-hover-pulse:hover {
+  transition: all .3s ease;
+  transform: scale(1.01);
 }
 
 @keyframes spaceAnimate {
@@ -7,9 +17,9 @@
     transform: translate(0, 0) scale(1);
   }
   33% {
-    transform: translate(1px, -0.5px) scale(1.03);
+    transform: translate(1px, -0.5px) scale(1.08);
   }
   66% {
-    transform: translate(-0.5px, 1px) scale(0.98);
+    transform: translate(-0.5px, 1px) scale(0.93);
   }
 }
