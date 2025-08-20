@@ -63,8 +63,12 @@
   border-radius: 3px;
 }
 
-.slider-section__dot-inner--active {
-  background-color: #4e9c1f;
+.swiper-pagination-bullet {
+  background-color: #D0D7DC !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4e9c1f !important;
 }
 
 .slider-section__dot-inner--inactive {
