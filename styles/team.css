@@ -36,6 +36,9 @@
   gap: 4px;
   padding: 4px;
   border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px;
 }
 
 .team-section__filter {
