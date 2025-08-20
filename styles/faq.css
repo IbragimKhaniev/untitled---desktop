@@ -66,6 +66,7 @@
   background-color: #f3f5f6;
   border-radius: 32px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .faq-item__blur {
