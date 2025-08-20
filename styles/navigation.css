@@ -295,11 +295,11 @@
 
 @media (max-width: 1024px) {
   .navigation-wrapper {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .navigation-logo {
-    position: relative;
+    position: static;
   }
 }
 
