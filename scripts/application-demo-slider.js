@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
       disableOnInteraction: false,
     },
     pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+      el: '.swiper-pagination',
+      clickable: true,
     },
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
     loop: true, // Бесконечная цикличность
   });
