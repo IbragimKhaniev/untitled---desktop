@@ -32,7 +32,7 @@
 .application-demo-section__container {
   position: absolute;
   width: 100%;
-  height: 500px;
+  height: 420px;
 }
 
 .application-demo-section__image {
@@ -46,14 +46,14 @@
 .application-demo-section__slider {
   position: absolute;
   width: 100%;
-  height: 500px;
+  height: 420px;
 }
 
 .application-demo-section__slide {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 420px;
 }
 
 .application-demo-section__slide img {
